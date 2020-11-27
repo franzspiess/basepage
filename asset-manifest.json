@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/basepage/static/css/main.aae3ac75.chunk.css",
-    "main.js": "/basepage/static/js/main.b9b830e8.chunk.js",
-    "main.js.map": "/basepage/static/js/main.b9b830e8.chunk.js.map",
+    "main.css": "/basepage/static/css/main.51a820c6.chunk.css",
+    "main.js": "/basepage/static/js/main.96c217c0.chunk.js",
+    "main.js.map": "/basepage/static/js/main.96c217c0.chunk.js.map",
     "runtime-main.js": "/basepage/static/js/runtime-main.d95508f7.js",
     "runtime-main.js.map": "/basepage/static/js/runtime-main.d95508f7.js.map",
     "static/js/2.7b3ace6e.chunk.js": "/basepage/static/js/2.7b3ace6e.chunk.js",
@@ -10,17 +10,13 @@
     "static/js/3.59bd2689.chunk.js": "/basepage/static/js/3.59bd2689.chunk.js",
     "static/js/3.59bd2689.chunk.js.map": "/basepage/static/js/3.59bd2689.chunk.js.map",
     "index.html": "/basepage/index.html",
-    "static/css/main.aae3ac75.chunk.css.map": "/basepage/static/css/main.aae3ac75.chunk.css.map",
-    "static/js/2.7b3ace6e.chunk.js.LICENSE.txt": "/basepage/static/js/2.7b3ace6e.chunk.js.LICENSE.txt",
-    "static/media/iconmonstr-email-2.0e360d89.svg": "/basepage/static/media/iconmonstr-email-2.0e360d89.svg",
-    "static/media/iconmonstr-github-1.04be58c1.svg": "/basepage/static/media/iconmonstr-github-1.04be58c1.svg",
-    "static/media/iconmonstr-linkedin-3.27a3f479.svg": "/basepage/static/media/iconmonstr-linkedin-3.27a3f479.svg",
-    "static/media/iconmonstr-phone-9.ca5696df.svg": "/basepage/static/media/iconmonstr-phone-9.ca5696df.svg"
+    "static/css/main.51a820c6.chunk.css.map": "/basepage/static/css/main.51a820c6.chunk.css.map",
+    "static/js/2.7b3ace6e.chunk.js.LICENSE.txt": "/basepage/static/js/2.7b3ace6e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d95508f7.js",
     "static/js/2.7b3ace6e.chunk.js",
-    "static/css/main.aae3ac75.chunk.css",
-    "static/js/main.b9b830e8.chunk.js"
+    "static/css/main.51a820c6.chunk.css",
+    "static/js/main.96c217c0.chunk.js"
   ]
 }
