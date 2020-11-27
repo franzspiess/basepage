@@ -2,7 +2,7 @@
   "name": "basepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://franzspiess.github.io/",
+  "homepage": "https://franzspiess.github.io/basepage",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",

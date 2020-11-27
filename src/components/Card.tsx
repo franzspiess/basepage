@@ -1,7 +1,7 @@
-import git from '../iconmonstr-github-1.svg'
-import linkedin from '../iconmonstr-linkedin-3.svg'
-import email from '../iconmonstr-email-2.svg'
-import phone from '../iconmonstr-phone-9.svg'
+import git from '../icons_hub.png'
+import linkedin from '../icons_link.png'
+import email from '../icons_mail.png'
+import phone from '../icons_phone.png'
 import React from 'react'
 import Column from './Column'
 
@@ -14,25 +14,25 @@ export default function Card() {
       >
         <div className='content text'>
           <h1>Franz Spiess</h1>
-          <h3 className="italic">Developer</h3>
+          <h3>Developer</h3>
         </div>
         <div className='content text'>
-          <span>Typescript</span>
-          <span>Python</span>
-          <span>React/Redux</span>
-          <span>NodeJS</span>
+          <h4>Typescript</h4>
+          <h4>Python</h4>
+          <h4>React/Redux</h4>
+          <h4>NodeJS</h4>
         </div>
         <div className='content logos'>
-          <a href='https://github.com/franzspiess'>
-            <img src={git} alt='github' />
+          <a href='https://github.com/franzspiess' target='blank'>
+            <img className='logo' src={git} alt='github' />
           </a>
-          <a href='https://linkedin.com/en/franzspiess'>
-            <img src={linkedin} alt='linkedin' />
+          <a href='https://linkedin.com/in/franzspiess' target='blank'>
+            <img className='logo' src={linkedin} alt='linkedin' />
           </a>
-          <a href='mailto:franz.spiess.dev@gmail.com'>
-            <img src={email} alt='email' />
+          <a href='mailto:contact@franzspiess.com' target='blank'>
+            <img className='logo' src={email} alt='email' />
           </a>
-          <img src={phone} alt='phone' />
+          <img className='logo' src={phone} alt='phone' />
         </div>
       </Column>
       <Column
