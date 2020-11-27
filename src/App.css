@@ -21,7 +21,6 @@
   display: flex;
   height: 55%;
   width: 45%;
-  border: 1px solid red;
 }
 
 .column {
@@ -30,7 +29,6 @@
   flex-direction: column;
   justify-content:space-evenly;
   align-items: center;
-  border: 1px solid red;
   padding: 2%;
 }
 
