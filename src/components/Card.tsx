@@ -5,7 +5,7 @@ import phone from '../icons_phone.png'
 import React from 'react'
 import Column from './Column'
 
-export default function Card() {
+export default function Card({handleClick}:{handleClick: (e:React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void}) {
   return (
     <div className='card'>
       <Column
@@ -14,7 +14,7 @@ export default function Card() {
       >
         <div className='content text'>
           <h1>Franz Spiess</h1>
-          <h3>Developer</h3>
+          <h3>developing</h3>
         </div>
         <div className='content text'>
           <h4>React/Redux</h4>
@@ -24,17 +24,17 @@ export default function Card() {
           <h4>Splunk</h4>
         </div>
         <div className='content logos'>
-          <a href='https://github.com/franzspiess' target='blank'>
+          <a id='git' href='https://github.com/franzspiess' target='blank' onClick={handleClick}>
             <img className='logo' src={git} alt='github' />
           </a>
-          <a href='https://linkedin.com/in/franzspiess' target='blank'>
+          <a id='linkedin' href='https://linkedin.com/in/franzspiess' target='blank' onClick={handleClick}>
             <img className='logo' src={linkedin} alt='linkedin' />
           </a>
-          <a href="mailto:contact@franzspiess.com" target="blank">
+          <a id='mailto' href="mailto:contact@franzspiess.com" target="blank" onClick={handleClick}>
             <img className='logo' src={email} alt='email' />
           </a>
-          <a href="skype:pinchepanchopincho?call" target="blank">
-          <img className='logo' src={phone} alt='phone' />
+          <a id='call' href="skype:pinchepanchopincho?call" target="blank" onClick={handleClick}>
+          <img id='call' className='logo' src={phone} alt='phone' />
           </a>
         </div>
       </Column>
