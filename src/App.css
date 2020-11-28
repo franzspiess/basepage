@@ -17,6 +17,7 @@
 
 .card {
   display: flex;
+  justify-content: flex-start;
   height: 55%;
   width: 45%;
 }

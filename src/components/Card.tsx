@@ -17,10 +17,11 @@ export default function Card() {
           <h3>Developer</h3>
         </div>
         <div className='content text'>
-          <h4>Typescript</h4>
-          <h4>Python</h4>
           <h4>React/Redux</h4>
+          <h4>Typescript</h4>
           <h4>NodeJS</h4>
+          <h4>Python</h4>
+          <h4>Splunk</h4>
         </div>
         <div className='content logos'>
           <a href='https://github.com/franzspiess' target='blank'>
@@ -35,7 +36,7 @@ export default function Card() {
           <img className='logo' src={phone} alt='phone' />
         </div>
       </Column>
-      <Column
+      {/* <Column
         width='34%'
         alignItems='center'
       >
@@ -43,7 +44,7 @@ export default function Card() {
       <Column
         width='33%'
         alignItems='flex-start'>
-      </Column>
+      </Column> */}
     </div>
   )
 }
