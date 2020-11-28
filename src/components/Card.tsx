@@ -29,7 +29,7 @@ export default function Card() {
           <a href='https://linkedin.com/in/franzspiess' target='blank'>
             <img className='logo' src={linkedin} alt='linkedin' />
           </a>
-          <a href='mailto:contact@franzspiess.com' target='blank'>
+          <a href="mailto:contact@franzspiess.com" target="blank">
             <img className='logo' src={email} alt='email' />
           </a>
           <img className='logo' src={phone} alt='phone' />
