@@ -33,7 +33,9 @@ export default function Card() {
           <a href="mailto:contact@franzspiess.com" target="blank">
             <img className='logo' src={email} alt='email' />
           </a>
+          <a href="skype:pinchepanchopincho?call" target="blank">
           <img className='logo' src={phone} alt='phone' />
+          </a>
         </div>
       </Column>
       {/* <Column
