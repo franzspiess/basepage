@@ -13,7 +13,6 @@ function App() {
   })
 
   function handleClick (e:React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
-    console.log(e.currentTarget.id)
     Analytics.event({
       category: e.currentTarget.id,
       action:'Clicked Link'
