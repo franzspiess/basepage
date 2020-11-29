@@ -9,7 +9,7 @@ export default function Card({handleClick}:{handleClick: (e:React.MouseEvent<HTM
   return (
     <div className='card'>
       <Column
-        width='33%'
+        width='100%'
         alignItems='flex-start'
       >
         <div className='content text'>
