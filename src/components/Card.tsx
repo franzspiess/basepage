@@ -23,6 +23,7 @@ export default function Card({handleClick}:{handleClick: (e:React.MouseEvent<HTM
           <h4>Python</h4>
           <h4>Splunk</h4>
         </div>
+        <div className='content'></div>
         <div className='content logos'>
           <a id='git' href='https://github.com/franzspiess' target='blank' onClick={handleClick}>
             <img className='logo' src={git} alt='github' />
